@@ -2,6 +2,7 @@ package com.jdbc.mapper;
 
 import com.jdbc.dto.Employee;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

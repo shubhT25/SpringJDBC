@@ -11,24 +11,24 @@ public class App {
         ApplicationContext context = new ClassPathXmlApplicationContext("/com/jdbc/resources/applicationContext.xml");
         EmployeeDao empDao = (EmployeeDaoImpl) context.getBean("employeeDaoImpl");
         Employee emp1 = new Employee();
-
-        emp1.setEno(2);
+        
+        emp1.setEno(5);
         emp1.setEname("Shubham");
         emp1.setEsal(80000);
         emp1.setEaddr("Wakad, Pune");
         System.out.println(empDao.add(emp1));
 
-        System.out.println(empDao.search(2).getEname());
+        System.out.println(empDao.search(5).getEname());
 
         Employee emp2 = new Employee();
-        emp2.setEno(2);
-        emp2.setEname("Shubham");
+        emp2.setEno(5);
+        emp2.setEname("Kaustubh");
         emp2.setEsal(100000);
         emp2.setEaddr("Malkapur");
 
         System.out.println(empDao.update(emp2));
 
-        System.out.println(empDao.delete(2));
+        System.out.println(empDao.delete(5));
 
     }
 }
