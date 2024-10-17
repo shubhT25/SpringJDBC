@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringJDBC.iml" filepath="$PROJECT_DIR$/.idea/SpringJDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJDBC1/SpringJDBC1.iml" filepath="$PROJECT_DIR$/SpringJDBC1/SpringJDBC1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringJDBC2/SpringJDBC2.iml" filepath="$PROJECT_DIR$/SpringJDBC2/SpringJDBC2.iml" />
     </modules>
   </component>
 </project>
